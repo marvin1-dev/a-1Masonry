@@ -10,11 +10,6 @@
   --font-3xl: 3.5rem;
 }
 
-.mobile-links.mobile-links-active {
-  width: 100%;
-}
-
-
 /* Reset & Global */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
