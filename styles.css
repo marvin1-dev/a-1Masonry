@@ -694,8 +694,21 @@ h3.Family.h3 {
   background-color: rgba(153, 255, 187, 1);
 }
 
+.hero-h1 {
+  font-size: var(--font-3x-large);
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonials p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
 /*Consulting*/
-.consulting.content {
+.services.content {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;

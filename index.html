@@ -1,319 +1,148 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Business website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
- 
- 
-  </head>
-  <body> 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A-1 Masonry | Catawba NC Masonry Services | Custom Stone & Brick Work</title>
+    <meta name="description" content="A-1 Masonry provides expert masonry services in Catawba NC. Specializing in custom stone, brick work, fireplaces, retaining walls, and restorations. Quality, family-owned craftsmanship." />
+    <link rel="canonical" href="https://yourdomain.com/" />
+    <meta property="og:title" content="A-1 Masonry | Expert Masonry in Catawba NC" />
+    <meta property="og:description" content="Transform your property with A-1 Masonry — trusted experts in stone, brick, and custom masonry services." />
+    <meta property="og:image" content="https://yourdomain.com/imgs/og-image.jpg" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "A-1 Masonry",
+      "image": "https://yourdomain.com/imgs/logo-transparent-svg.svg",
+      "url": "https://yourdomain.com/",
+      "telephone": "+1 123456789",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Catawba",
+        "addressRegion": "NC",
+        "postalCode": "28609",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.facebook.com/yourpage",
+        "https://www.linkedin.com/company/yourpage",
+        "https://www.twitter.com/yourpage"
+      ]
+    }
+    </script>
+</head>
+<body>
 
-    <section class="navigation w3-metro-light-blue">
-      <button onclick="goToTop()" id="back-to-top" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg></button>
-      <nav class="nav-container">
-       <div class="logo w3-padding-large">
- 
-</div>
+<section class="navigation w3-metro-light-blue">
+    <nav class="nav-container">
+        <div class="logo w3-padding-large">
+            <img src="./imgs/logo-transparent-svg.svg" alt="A-1 Masonry Logo" class="logo">
+        </div>
         <div class="mobile-button">
-          <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
         </div>
         <div class="links">
-          <a href="#about" >ABOUT</a>-
-          <a href="#consulting" >CONSULTING</a>-
-          <a href="#faq" >FAQ</a>- 
-          <a href="#contact" >CONTACT</a>            
+            <a href="#about">ABOUT</a>-
+            <a href="#consulting">SERVICES</a>-
+            <a href="#faq">FAQ</a>-
+            <a href="#contact">CONTACT</a>
         </div>
-       <div id="mobile-sidenav" class="mobile-links w3-sand">
-          <a href="javascript:void(0)" class="closebtn w3-round" onclick="toggleMobileNavigation()">×</a>
-          <a href="#about" onclick="toggleMobileNavigation()">ABOUT</a>
-          <a href="#consulting" onclick="toggleMobileNavigation()">CONSULTING</a>
-          <a href="#contact" onclick="toggleMobileNavigation()">CONTACT</a>
-      <a href="#faq" onclick="toggleMobileNavigation()">FAQ</a>
-        </div>
-      </nav>
-    </section>
-
-
-
-<section class="hero w3-padding-large w3-container">
-  <ul class="slideshow">
-    <li><span></span></li>
-    <li><span>2</span></li>
-    <li><span></span></li>
-    <li><span></span></li>
-    <li><span></span></li>
-  </ul>
-  <div class="image-url-container"></div>
-  <h1 style="display: inline;">
-    <img src="./imgs/logo-transparent-svg.svg" alt="A-1 Masonry Logo" class="logo">
-  </h1>
-  <p>Providing quality workmanship</p>
-  <a href="#contact" class="w3-padding-large w3-round">Schedule An Appointment</a>
+    </nav>
 </section>
 
+<section class="hero w3-padding-large w3-container">
+    <h1 class="hero-h1">Expert Masonry Services in Catawba NC | A-1 Masonry</h1>
+    <p>Providing quality stone and brick workmanship for over 15 years</p>
+    <a href="#contact" class="w3-padding-large w3-round">Schedule An Appointment</a>
+</section>
 
+<section id="about" class="w3-container">
+    <h2>Our Mission</h2>
+    <p>A-1 Masonry strives to deliver superior workmanship ensuring every project is beautiful, durable, and built to last. We specialize in custom masonry builds, stone retaining walls, fireplaces, and more in Catawba NC and surrounding areas.</p>
+</section>
 
+<section class="w3-container">
+    <h2>Our Commitment</h2>
+    <ul>
+        <li>Affordable craftsmanship & timeless durability</li>
+        <li>Family-owned legacy of excellence</li>
+        <li>Expert masons transforming ideas into lasting legacies</li>
+    </ul>
+</section>
 
+<section id="consulting" class="w3-container">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Custom Masonry Projects</li>
+        <li>Brick and Stone Restoration</li>
+        <li>Exterior & Interior Masonry Repair</li>
+        <li>Chimneys & Fireplaces</li>
+        <li>Columns, Mailboxes, Retaining Walls, and More</li>
+    </ul>
+</section>
 
+<section class="testimonials w3-container">
+    <h2>Customer Testimonials</h2>
+    <blockquote>
+        <p>"A-1 Masonry helped me launch my project in just 3 months. Jose and his team exceeded expectations!" - Anne Johnson</p>
+    </blockquote>
+    <blockquote>
+        <p>"Their expert craftsmanship and professionalism made all the difference in our home renovation." - Dean Doe</p>
+    </blockquote>
+</section>
 
+<section id="faq" class="w3-container">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+        <summary>How long does it typically take to complete a project?</summary>
+        <p>Timelines vary depending on the size and complexity of the project. On average, a project can take from a few days to several weeks.</p>
+    </details>
+    <details>
+        <summary>Why hire a professional masonry service?</summary>
+        <p>Our skilled masons bring expertise and specialized tools to ensure efficient, high-quality results with long-lasting durability.</p>
+    </details>
+</section>
 
+<section id="contact" class="w3-container">
+    <h2>Contact A-1 Masonry</h2>
+    <p><strong>Address:</strong> <a href="https://www.google.com/maps/place/Catawba,+NC">Catawba, NC, USA</a></p>
+    <p><strong>Email:</strong> <a href="mailto:a1Masonry@gmail.com">a1Masonry@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+1123456789">+1 123-456-789</a></p>
 
-<div class="Mission container w3-round-large" id="about">
-        <h2 class="mission h1">Our Mission</h2>
-        <p class="mission p">Building Dreams, One Stone at a Time</p><p>&nbsp;</p>
-        
-<p class="aboutInfo">A-1 Masonry strives to deliver superior workmanship to ensure that our projects are not only beautiful but also durable and long-lasting. Our team of highly skilled masons are dedicated to delivering exceptional work. Whether you are looking for a custom build, a stone retaining wall, or a custom fireplace, we have the knowledge and expertise to get the job done right. We work closely with our clients to understand their needs and preferences. Committed to maintaining the highest standards of professionalism in all aspects of our work. We thank you for considering A-1 Masonry for your next project. </p>
-      <p class="aboutInfo"> We look forward to working with you and helping you bring your vision to life.
-</p>
-      </div>
+    <h3>Follow Us</h3>
+    <p><a href="#">Facebook</a> | <a href="#">LinkedIn</a> | <a href="#">Twitter</a></p>
 
-<div class="container w3-margin-top w3-round-large">
-    <h2 class="mission h1">- Our Committment -</h2>
-<div class="card-container" style="display: flex; justify-content: space-around; align-items: center;">
-        <!-- Card 1 -->
-        <div class="card">
-    <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 512 512">
-        <!-- Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path>
-    </svg><h1 class="cardh">Quality</h1>
-    
-    <p class="card-text1">Affordable craftsmanship and timeless durability. <br>Your Vision, Our Passion.
+    <form name="contact" method="POST" data-netlify="true">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
 
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
 
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" name="date">
 
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject"></textarea>
 
-</p>
-</div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
 
-        <!-- Card 2 -->
-        <div class="card">
-    <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 640 512">
-        <!-- Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-        <path d="M335.5 4l288 160c15.4 8.6 21 28.1 12.4 43.5s-28.1 21-43.5 12.4L320 68.6 47.5 220c-15.4 8.6-34.9 3-43.5-12.4s-3-34.9 12.4-43.5L304.5 4c9.7-5.4 21.4-5.4 31.1 0zM320 160a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM144 256a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm312 40a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM226.9 491.4L200 441.5V480c0 17.7-14.3 32-32 32H120c-17.7 0-32-14.3-32-32V441.5L61.1 491.4c-6.3 11.7-20.8 16-32.5 9.8s-16-20.8-9.8-32.5l37.9-70.3c15.3-28.5 45.1-46.3 77.5-46.3h19.5c16.3 0 31.9 4.5 45.4 12.6l33.6-62.3c15.3-28.5 45.1-46.3 77.5-46.3h19.5c32.4 0 62.1 17.8 77.5 46.3l33.6 62.3c13.5-8.1 29.1-12.6 45.4-12.6h19.5c32.4 0 62.1 17.8 77.5 46.3l37.9 70.3c6.3 11.7 1.9 26.2-9.8 32.5s-26.2 1.9-32.5-9.8L552 441.5V480c0 17.7-14.3 32-32 32H472c-17.7 0-32-14.3-32-32V441.5l-26.9 49.9c-6.3 11.7-20.8 16-32.5 9.8s-16-20.8-9.8-32.5l36.3-67.5c-1.7-1.7-3.2-3.6-4.3-5.8L376 345.5V400c0 17.7-14.3 32-32 32H296c-17.7 0-32-14.3-32-32V345.5l-26.9 49.9c-1.2 2.2-2.6 4.1-4.3 5.8l36.3 67.5c6.3 11.7 1.9 26.2-9.8 32.5s-26.2 1.9-32.5-9.8z"></path>
-    </svg><h1 class="cardh">Family<br>Owned</h1>
-    
-    <p class="card-text"> <em>"As a family business, we understand the importance of trust and reliability. When you choose A-1 Masonry, you're not just hiring masons; you're inviting a legacy of excellence into your project."</em> <strong><br>- Jose Arredondo<br>Owner</strong>
-</p>
-</div>
+<footer class="w3-container">
+    <p>&copy; 2025 A-1 Masonry. All rights reserved.</p>
+</footer>
 
-        <!-- Card 3 -->
-        <div class="card">
-    <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 640 512">
-        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-        <path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM625 177L497 305c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L591 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path>
-    </svg><h1 class="cardh">Experience</h1>
-    
-    <p class="card-text1">We provide trained masons to ensure your build is built to your needs. <br>Transforming Ideas into Lasting Legacies.
-
-
-
-
-</p>
-</div>
-
-    </div>
-</div>
-
-
-    <div class="carousel-wrapper">
-        <div class="carousel-container">
-            <div class="carousel">
-                <div class="carousel-item image-one">
-                    <!-- Image content for the first slide -->
-                </div>
-                <div class="carousel-item image-two">
-                    <!-- Image content for the second slide -->
-                </div>
-                <div class="carousel-item image-three">
-                    <!-- Image content for the third slide -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-    </section>
-
-    <section class="testimonials w3-container w3-panel" style="padding: 50px;">
-      <h2 style="text-align: center;">- Some of our customer stories -</h2>
-      <div class="slideshow-container">
-
-      <div class="mySlides">
-        <p><q><em>No pues el compa si sabe</em></q></p>
-        <p class="author"><strong>- John Keats, Founder of COMPANY-X</strong></p>
-      </div>
-
-      <div class="mySlides">
-        <p><q><em>A-1 Masonry helped me launch my idea in only 3 months! If there was not for Jose and his team, I would probably not succeed.</em></q></p>
-        <p class="author"><strong>- Anne Johnson, Founder of COMPANY-Y</strong></p>
-      </div>
-
-      <div class="mySlides">
-        <p><q><em>These guys know what they are doing, they will help you steer your idea in the right direction, reducing all the risks you might encounter on your own! They surely did mine.</em></q></p>
-        <p class="author"><strong>- Dean Doe, Founder of COMPANY-Z</strong></p>
-      </div>
-
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-
-      </div>
-
-      <div class="dot-container">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>      
-    </section>
-
-<section id="consulting" class="w3-container container consulting content">
-    <h2 class="wwd">- What we do -</h2>
-  <div class="cards-container">
-    
-      <div class="c-card w3-margin-top">
-        <p>Custom Masonry Projects</p>
-      </div>
-      <div class="c-card c-card-right w3-margin-top">
-        <p>Brick and Stone Restoration</p>
-      </div>
-    
-      <div class="c-card w3-margin-top">        
-        <p>Exterior &amp; Interior Masonry Repair</p>
-      </div>
-      <div class="c-card  c-card-right w3-margin-top">
-        <p>Chimneys &amp; Fireplaces</p>
-      </div>
-      <div class="c-card w3-margin-top">
-        <p>Columns, Mailboxes, Retaining Walls, and More</p>
-      </div>
-      <div class="c-card  c-card-right w3-margin-top">
-        <p>We provide you with a roadmap after we conduct business </p>
-      </div>
- </div>
-  <div class="pic-ctn">
-       
-    <img src="./imgs/3.jpg" alt="brick masonry" class="pic">
-    <img src="./imgs/2.jpg" alt="brick custom fireplace masonry" class="pic">
-    <img src="./imgs/1.jpg" alt="brick columns custom masonry" class="pic">
-    <img src="./imgs/4.jpg" alt="brick masonry" class="pic">
-    <img src="https://picsum.photos/200/300?t=5" alt="" class="pic">
-  </div>
-    </section>
-
-    <section class="w3-panel w3-container content why-us" style="padding: 50px;">
-      <h2 style="text-align: center;">- Why choose us? -</h2>
-      <div class="container boxes">
-        <div class="box w3-round-large">
-          More than 15 years of experience
-        </div>
-        <div class="box w3-round-large">
-          Expert Craftsmanship
-        </div>
-        <div class="box w3-round-large">
-          Customized Solutions
-        </div>
-        <div class="box w3-round-large">
-          Attention to Detail
-        </div>
-      <div class="box w3-round-large" style="background-color: #0085ca; color: white;">
-         High Customer Satisfaction
-        </div>
-      </div>
-    </section>
-
-<section class="w3-container container consulting content faq-section" id="faq">
-<h1 class="faq h">Frequently Asked Questions</h1>
-    <div class="faq-container">
-      <details class="faq-box">
-        <summary class="faq-header">
-          How long does it typically take to complete a project?
-        </summary>
-        <div class="faq-content">
-          <p>
-            The timeline will vary depening on the size and complexity of the project. 
-            On average, a job can take anywhere from a few days to several weeks 
-            to complete.
-          </p>
-        </div>
-      </details>
-
-
-      <details class="faq-box">
-        <summary class="faq-header">
-          Why hire a professional masonry service?
-        </summary>
-        <div class="faq-content">
-          <p>
-            A-1 Masonry is skilled in masonry techniques and equipped with specialized tools, ensuring efficient and timely project completion. We prioritize superior workmanship, leading to long-lasting and durable results for our clients.
-      
-          </p>
-        </div>
-      </details>
-
-      <details class="faq-box">
-        <summary class="faq-header">
-          Mauris ultrices aliquam lacinia?
-        </summary>
-        <div class="faq-content">
-          <p>
-            Integer tristique augue diam, eget ultrices
-            nisi vehicula a. Curabitur vulputate arcu
-            nec orci laoreet iaculis.
-          </p>
-        </div>
-      </details>
-    </div>
-  </section>
-
-
-    <section class="contact w3-container contact" id="contact">
-      <div class="short-contact">
-        <h2>- Our contact info - </h2>
-        <div class="w3-large contact-info">
-          <i class="fa fa-address-card"></i><span style="margin-left:10px;"><a href="https://www.google.com/maps/place/Catawba,+NC+28609/@35.7061141,-81.0667135,13z/data=!3m1!4b1!4m6!3m5!1s0x8851492d2a2e7031:0x6c15312d9da69249!8m2!3d35.7073558!4d-81.0756345!16zL20vMHlmNjI?entry=ttu" target="_blank">Catawba, NC, USA</a></span><br>
-          <i class="fa fa-envelope"></i><span style="margin-left:10px;"><a href="a1Masonry@gmail.com">a1Masonry@gmail.com</a></span><br>
-          <i class="fa fa-phone-square"></i><span style="margin-left:10px;"><a href="+44 0197532486">+1 123456789</a></span><br>
-        </div>
-        <h3 class="w3-margin-top">- Follow us </h3>
-        <div class="w3-large contact-info">
-          <i class="fa fa-linkedin-square"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- LinkedIn</a></span><br>
-          <i class="fa fa-facebook-square"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- Facebook</a></span><br>
-          <i class="fa fa-twitter-square"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- Twitter</a></span><br>
-        </div>
-      </div>
-      <div class="form w3-margin-top">
-        <div class="container w3-round-xlarge">
-<form class="w3-highway-blue w3-padding-large w3-round-large" name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">           
-  <input class="d-none" name="bot-field">
-  <h3 style="text-align: center;"><i class="fa fa-check-square-o" style="font-size: 15px;"></i>Schedule a meeting</h3>
-            <label for="fname">Your name</label>
-            <input type="text" id="name" name="name" placeholder="Your name">
-            <label for="lname">Your email</label>
-            <input type="text" id="email" name="email" placeholder="Your email">
-            <label for="lname">Pick a date</label><br>
-            <input type="date" id="date" name="date" placeholder="Your date"><br><br>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            <p>By submiting this form, you agree to our <a href="#" target="_blank">privacy policy</a></p><br>
-            <input class="w3-round-large" type="submit" value="Submit">
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <section class="w3-container footer">
-      <p class="w3-center logo">© 2022 - CONSULTCORP - All rights reserved</p>
-    </section>
-
-
-  <script src="./js/script.js"></script>
-
-  </body>
+<script src="./js/script.js"></script>
+</body>
 </html>
