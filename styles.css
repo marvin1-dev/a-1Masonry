@@ -19,9 +19,10 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 3px;
+  font-family: "Poppins", "Roboto", sans-serif;
   background-color: #f5f5f5;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
 }
 
 * {
@@ -178,6 +179,7 @@ body {
   margin: auto;
   height: 100%;
   display: flex;
+  gap: 25px;
   background-color: silver;
   position: relative;
   overflow: hidden;
@@ -197,7 +199,7 @@ body {
   display: flex;
   width: 100%;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
   justify-content: center;
 }
 
@@ -220,6 +222,9 @@ body {
 
 .nav-container .links a {
   font-size: var(--font-medium);
+  padding: 0.5rem 1rem;
+  letter-spacing: 1px;
+
 }
 
 .nav-container .logo p {
@@ -290,6 +295,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   position: relative;
+  padding: 120px 20px;
  z-index: 1;
   color: #FFFFFF; /* Set default text color to white */
 }
@@ -319,7 +325,8 @@ body {
 .Mission.container.w3-round-large {
     padding: 50px;
     -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
 }
 
 
@@ -374,7 +381,8 @@ p.mission.p {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
 }
 
 .card:hover {
@@ -510,7 +518,7 @@ p.aboutInfo {
 }
 
 .content {
-  padding: 50px;
+  padding: 80px 20px;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
@@ -621,10 +629,13 @@ h3.Family.h3 {
   background: #485563;
   background: -webkit-linear-gradient(to right, #29323c, #485563);
   background: linear-gradient(to right, #29323c, #485563);
+  padding: 80px 20px;
 }
 
 .testimonials h2 {
   color: white;
+  margin-bottom: 40px;
+  font-size: 2rem;
 }
 
 /* Slideshow container */
@@ -853,7 +864,7 @@ h2.wwd {
   border-radius: 12px;
   padding: 2em;
   background-color: white;
-  box-shadow: 2px 2px 15px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   top: 0%;
   right: 0%;
   margin-bottom: 20px;
@@ -951,13 +962,16 @@ textarea {
 
 /*Footer*/
 .footer {
-  min-height: 80px;
+  min-height: 100px;
   background: #485563;
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
-  background: linear-gradient(to right, #29323c, #485563);
+  background: -webkit-linear-gradient(to right, #2f3b47, #485563);
+  background: linear-gradient(to right, #2f3b47, #485563);
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  padding: 20px;
   color: white;
 }
 
@@ -1034,6 +1048,13 @@ textarea {
   .content.container,
   .leadership-content.container {
     width: 100%;
+  }
+
+  .content {
+    padding: 40px 15px;
+  }
+  .hero {
+    padding: 80px 15px;
   }
 
   .container {
