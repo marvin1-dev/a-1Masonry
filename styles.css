@@ -494,6 +494,117 @@ input.d-none {display: none;}
   }
 }
 
+.snip1336 {
+  font-family: 'Poppins', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 260px;
+  max-width: 340px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.5em;
+  background: linear-gradient(to right, #29323c, #485563);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.snip1336:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.snip1336 img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  opacity: 0.9;
+  border-radius: 12px 12px 0 0;
+}
+
+.snip1336 figcaption {
+  padding: 25px;
+  background: linear-gradient(to right, #29323c, #485563);
+  position: relative;
+}
+
+.snip1336 figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #1A1A1A;
+}
+
+.snip1336 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  max-width: 120px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+.snip1336 h2 {
+  margin: 0 0 10px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #F2F2F2;
+}
+
+.snip1336 h2 span {
+  display: block;
+  font-size: 0.9rem;
+  color: #C1582D; /* warm brick tone */
+}
+
+.snip1336 p {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin: 0 0 15px;
+  color: #DDDDDD;
+}
+
+.snip1336 a {
+  padding: 8px 14px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin: 5px 5px 0 0;
+  display: inline-block;
+  opacity: 0.85;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.snip1336 a:hover {
+  opacity: 1;
+  background-color: #C1582D;
+  border-color: #C1582D;
+  color: #ffffff;
+}
+
+.snip1336 .follow {
+  border-color: #C1582D;
+  color: #C1582D;
+}
+
+
 
 
 /* Your existing styles for h1, p, and a elements can remain unchanged */
