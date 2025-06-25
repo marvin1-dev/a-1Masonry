@@ -227,9 +227,22 @@ body {
 
 }
 
-.nav-container .logo p {
-  font-size: var(--font-large);
+.nav-container .links a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent; /* Invisible underline */
 }
+
+.nav-container .links a:hover {
+  border-bottom: 2px solid #ffffff; /* Show underline on hover */
+  color: #ffffff;
+  font-weight: 600;
+}
+
 
 .nav-container .links a:hover,
 .nav-container .logo p:hover {
@@ -490,9 +503,14 @@ input.d-none {display: none;}
 
 
 .hero a {
-  border: 3px double #FFFFFF;
-  text-decoration: none;
-  color: #FFFFFF;
+  background-color: #0085CA;
+  color: white;
+  font-size: 1.25rem;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: none;
+  display: inline-block;
+  margin-top: 20px;
   transition: var(--transition-fast);
      z-index: 2;
 
@@ -856,6 +874,10 @@ h2.wwd {
 }
 
 /* FAQ */
+
+.faq-box {
+  margin-bottom: 1rem;
+}
 
 
 .faq-section {
