@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy | A-1 Masonry</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+    }
+
+    .legal-header {
+      background-color: #eaf4f7;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .legal-header h1 {
+      font-size: 2.5rem;
+      color: #2a4366;
+    }
+
+    .legal-wrapper {
+      display: flex;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px 100px;
+      gap: 40px;
+    }
+
+    .legal-sidebar {
+      flex: 0 0 220px;
+      position: sticky;
+      top: 100px;
+      height: fit-content;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .legal-sidebar nav a {
+      display: block;
+      color: #2a4366;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .legal-sidebar nav a:hover {
+      text-decoration: underline;
+    }
+
+    .legal-content {
+      flex: 1;
+    }
+
+    details {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: box-shadow 0.3s ease;
+    }
+
+    details[open] {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    summary {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #2a4366;
+      cursor: pointer;
+      outline: none;
+      list-style: none;
+      position: relative;
+      padding-left: 1.5rem;
+    }
+
+    summary::before {
+      content: "▶";
+      position: absolute;
+      left: 0;
+      top: 2px;
+      font-size: 1.1rem;
+      color: #2a4366;
+      transition: transform 0.2s ease;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    details ul {
+      padding-left: 1.5rem;
+      margin-top: 1rem;
+      list-style: disc;
+    }
+
+    .home-button {
+    display: inline-block;
+    background-color: #2a4366;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    transition: background-color 0.2s ease;
+    }
+
+    .home-button:hover {
+    background-color: #1e2f4a;
+    }
+
+
+
+    details li {
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+
+    details p {
+      margin-top: 1rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 960px) {
+      .legal-wrapper {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .legal-sidebar {
+        position: relative;
+        width: 100%;
+        box-shadow: none;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .legal-sidebar nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .legal-sidebar nav a {
+        margin-bottom: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="legal-header">
+    <h1>Privacy Policy</h1>
+    <p>How A-1 Masonry handles your information</p>
+    <p><em>Effective Date: June 25, 2025</em></p>
+  </div>
+
+  <div class="legal-wrapper">
+
+    <!-- Sidebar Navigation -->
+    <aside class="legal-sidebar">
+    <nav>
+        <a href="index.html" class="home-button">← Home</a>
+        <a href="#intro">Introduction</a>
+        <a href="#collect">What We Collect</a>
+        <a href="#use">How We Use Data</a>
+        <a href="#cookies">Cookies</a>
+        <a href="#share">Sharing</a>
+        <a href="#security">Security</a>
+        <a href="#rights">Your Rights</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </aside>
+
+
+    <!-- Main Content -->
+    <section class="legal-content">
+
+      <details id="intro" open>
+        <summary>Introduction</summary>
+        <p>A-1 Masonry LLC respects your privacy. This policy outlines what information we collect, why we collect it, and how we use and protect it.</p>
+      </details>
+
+      <details id="collect">
+        <summary>What We Collect</summary>
+        <ul>
+          <li>Contact form data: name, email, phone, and your message.</li>
+          <li>Site usage data: pages visited, browser/device type (via Google Analytics).</li>
+        </ul>
+      </details>
+
+      <details id="use">
+        <summary>How We Use Data</summary>
+        <ul>
+          <li>To respond to inquiries and appointment requests.</li>
+          <li>To improve our website and communication.</li>
+        </ul>
+      </details>
+
+      <details id="cookies">
+        <summary>Cookies & Analytics</summary>
+        <p>We use cookies and analytics tools (e.g., Google Analytics) to understand website traffic. You can disable cookies in your browser settings at any time.</p>
+      </details>
+
+      <details id="share">
+        <summary>Information Sharing</summary>
+        <p>We do not sell or share your personal data with third parties unless legally required or to operate our website securely.</p>
+      </details>
+
+      <details id="security">
+        <summary>Security</summary>
+        <p>We implement standard security protocols to protect your data, but no online method is completely risk-free.</p>
+      </details>
+
+      <details id="rights">
+        <summary>Your Rights</summary>
+        <p>You can request to review, update, or delete your personal information by contacting us directly.</p>
+      </details>
+
+      <details id="contact">
+        <summary>Contact Us</summary>
+        <p>Email: <a href="mailto:a1masonryteam@gmail.com">a1masonryteam@gmail.com</a><br>
+        Phone: <a href="tel:+17047933923">(704) 793-3923</a></p>
+        <p><a href="index.html">← Back to Home</a></p>
+      </details>
+
+    </section>
+  </div>
+
+  <!-- Footer container -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script>
+    // Load footer from external file
+    fetch('footer.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+      });
+
+    // Expand and scroll to section
+    document.querySelectorAll('.legal-sidebar nav a').forEach(link => {
+      link.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href').replace('#', '');
+        const targetDetails = document.getElementById(targetId);
+        if (targetDetails && !targetDetails.open) {
+          targetDetails.open = true;
+          targetDetails.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

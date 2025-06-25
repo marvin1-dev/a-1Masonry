@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terms & Conditions | A-1 Masonry</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+    }
+
+    .legal-header {
+      background-color: #eaf4f7;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .legal-header h1 {
+      font-size: 2.5rem;
+      color: #2a4366;
+    }
+
+    .legal-wrapper {
+      display: flex;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px 100px;
+      gap: 40px;
+    }
+
+    .legal-sidebar {
+      flex: 0 0 220px;
+      position: sticky;
+      top: 100px;
+      height: fit-content;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .legal-sidebar nav a {
+      display: block;
+      color: #2a4366;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .legal-sidebar nav a:hover {
+      text-decoration: underline;
+    }
+
+    .legal-content {
+      flex: 1;
+    }
+
+    details {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: box-shadow 0.3s ease;
+    }
+
+    details[open] {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    summary {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #2a4366;
+      cursor: pointer;
+      outline: none;
+      list-style: none;
+      position: relative;
+      padding-left: 1.5rem;
+    }
+
+    summary::before {
+      content: "▶";
+      position: absolute;
+      left: 0;
+      top: 2px;
+      font-size: 1.1rem;
+      color: #2a4366;
+      transition: transform 0.2s ease;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    details ul {
+      padding-left: 1.5rem;
+      margin-top: 1rem;
+      list-style: disc;
+    }
+
+    .home-button {
+    display: inline-block;
+    background-color: #2a4366;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    transition: background-color 0.2s ease;
+    }
+
+    .home-button:hover {
+    background-color: #1e2f4a;
+    }
+
+
+
+    details li {
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+
+    details p {
+      margin-top: 1rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 960px) {
+      .legal-wrapper {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .legal-sidebar {
+        position: relative;
+        width: 100%;
+        box-shadow: none;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .legal-sidebar nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .legal-sidebar nav a {
+        margin-bottom: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="legal-header">
+    <h1>Terms & Conditions</h1>
+    <p>Use of this website and services offered by A-1 Masonry LLC</p>
+    <p><em>Effective Date: June 25, 2025</em></p>
+  </div>
+
+  <div class="legal-wrapper">
+
+    <!-- Sidebar Navigation -->
+    <aside class="legal-sidebar">
+      <nav>
+        <a href="index.html" class="home-button">← Home</a>
+        <a href="#overview">Overview</a>
+        <a href="#use">Acceptable Use</a>
+        <a href="#services">Service Terms</a>
+        <a href="#content">Content Accuracy</a>
+        <a href="#disclaimers">Disclaimers</a>
+        <a href="#liability">Limitation of Liability</a>
+        <a href="#governing">Governing Law</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <section class="legal-content">
+
+      <details id="acceptance" open>
+        <summary>Acceptance of Terms</summary>
+        <p>By using this website, you agree to be bound by these Terms and Conditions. If you do not agree, please discontinue use of the site immediately.</p>
+      </details>
+
+      <details id="use">
+        <summary>Use of Website</summary>
+        <ul>
+          <li>This site is intended for lawful use only.</li>
+          <li>You may not interfere with the operation of the site or attempt to gain unauthorized access to data or services.</li>
+          <li>Misuse of contact forms or content is prohibited.</li>
+        </ul>
+      </details>
+
+      <details id="property">
+        <summary>Intellectual Property</summary>
+        <p>All logos, images, text, and layout elements are the property of A-1 Masonry LLC and may not be used or reproduced without written consent.</p>
+      </details>
+
+      <details id="links">
+        <summary>External Links</summary>
+        <p>We may provide links to third-party websites. A-1 Masonry LLC is not responsible for the content, accuracy, or practices of any linked sites.</p>
+      </details>
+
+      <details id="disclaimer">
+        <summary>Disclaimer</summary>
+        <p>This site is provided "as is" without warranties of any kind. We do not guarantee accuracy, availability, or suitability of the information for your needs.</p>
+      </details>
+
+      <details id="liability">
+        <summary>Limitation of Liability</summary>
+        <p>A-1 Masonry LLC is not liable for any direct, indirect, incidental, or consequential damages arising from the use of this site.</p>
+      </details>
+
+      <details id="changes">
+        <summary>Changes to Terms</summary>
+        <p>We reserve the right to modify these Terms at any time. Continued use of this site after changes are posted constitutes your acceptance of those changes.</p>
+      </details>
+
+      <details id="contact">
+        <summary>Contact Us</summary>
+        <p>If you have any questions about these Terms, you may contact us at:</p>
+        <p>
+          Email: <a href="mailto:a1masonryteam@gmail.com">a1masonryteam@gmail.com</a><br>
+          Phone: <a href="tel:+17047933923">(704) 793-3923</a>
+        </p>
+        <p><a href="index.html">← Back to Home</a></p>
+      </details>
+
+    </section>
+  </div>
+
+
+<!-- Footer container -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script>
+    fetch('footer.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+      });
+
+    document.querySelectorAll('.legal-sidebar nav a').forEach(link => {
+      link.addEventListener('click', function () {
+        const targetId = this.getAttribute('href').replace('#', '');
+        const targetDetails = document.getElementById(targetId);
+        if (targetDetails && !targetDetails.open) {
+          targetDetails.open = true;
+          targetDetails.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
