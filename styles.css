@@ -242,7 +242,6 @@ body {
   font-size: var(--font-large);
 }
 
-.links a:hover,
 .logo p:hover {
   font-size: var(--font-large);
 }
