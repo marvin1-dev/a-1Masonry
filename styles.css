@@ -18,6 +18,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+
 body {
   font-family: "Poppins", "Roboto", sans-serif;
   background-color: #f5f5f5;
@@ -1189,6 +1194,9 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
   .content.container,
   .leadership-content.container {
     width: 100%;
