@@ -221,13 +221,6 @@ body {
 }
 
 .nav-container .links a {
-  font-size: var(--font-medium);
-  padding: 0.5rem 1rem;
-  letter-spacing: 1px;
-
-}
-
-.nav-container .links a {
   color: #ffffff;
   font-size: 1rem;
   font-weight: 500;
@@ -235,6 +228,8 @@ body {
   text-decoration: none;
   transition: all 0.3s ease;
   border-bottom: 2px solid transparent; /* Invisible underline */
+  letter-spacing: 1px;
+
 }
 
 .nav-container .links a:hover {
@@ -243,9 +238,12 @@ body {
   font-weight: 600;
 }
 
+.logo p {
+  font-size: var(--font-large);
+}
 
-.nav-container .links a:hover,
-.nav-container .logo p:hover {
+.links a:hover,
+.logo p:hover {
   font-size: var(--font-large);
 }
 
