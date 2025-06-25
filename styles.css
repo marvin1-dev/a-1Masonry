@@ -619,7 +619,7 @@ input.d-none {display: none;}
 
 
 .hero a {
-  background-color: #2A4365;
+  background-color: #C1582D;
   color: white;
   font-size: 1.25rem;
   padding: 15px 30px;
@@ -634,12 +634,16 @@ input.d-none {display: none;}
 
 }
 
- .hero a:hover {
-background: #485563;
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
-  background: linear-gradient(to right, #29323c, #485563);
-  color: white;
+.hero a:hover {
+  background-color: #A34721; /* Deeper orange */
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4); /* softer shadow, more modern */
+  transform: translateY(-2px); /* subtle lift */
+  transition: all 0.3s ease;
 }
+
+
+
 
 /*About*/
 .about {
