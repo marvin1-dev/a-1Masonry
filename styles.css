@@ -543,13 +543,23 @@ input.d-none {display: none;}
 }
 
 .snip1336 .profile {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
   border-radius: 50%;
   position: absolute;
   bottom: 100%;
   left: 25px;
   z-index: 1;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  background-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.snip1336 .profile svg {
+  width: 50%;
+  height: 50%;
 }
 
 .snip1336 h2 {
