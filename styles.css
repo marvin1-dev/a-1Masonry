@@ -459,12 +459,18 @@ input.d-none {display: none;}
   .logo {
     height: 300px; /* Set the height to 100px for desktop devices */
   }
+  .logo-footer {
+    height: 250px;
+  }
 }
 
 /* Media query for mobile devices */
 @media (max-width: 767px) {
   .logo {
     height: 195px; /* Let the height be auto for mobile devices */
+  }
+    .logo-footer {
+    height: 90px;
   }
 }
 
