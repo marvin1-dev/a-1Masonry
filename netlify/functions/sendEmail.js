@@ -59,7 +59,7 @@ exports.handler = async (event) => {
                 <td style="background-color:#1d2434; padding:20px; text-align:center; color:#ffffff; font-size:14px;">
                     &copy; 2025 A-1 Masonry LLC · All rights reserved<br/>
                     <a href="mailto:support@a-1masonry.llc" style="color:#f9c846; text-decoration:none;">support@a-1masonry.llc</a> · 
-                    <a href="https://www.a-1masonry.llc/privacy" style="color:#f9c846; text-decoration:none;">Privacy Policy</a>
+                    <a href="https://www.a-1masonry.llc/privacy-policy" style="color:#f9c846; text-decoration:none;">Privacy Policy</a>
                 </td>
                 </tr>
             </table>
