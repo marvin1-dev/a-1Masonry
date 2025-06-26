@@ -52,6 +52,8 @@ function showSlides(n) {
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.forms['contact'];
   const thankYouMessage = document.getElementById("thank-you-message");
+  // Debugging line to check if thankYouMessage exists
+  console.log("thankYouMessage:", thankYouMessage);
 
   if (form) {
     form.addEventListener('submit', async function (e) {
