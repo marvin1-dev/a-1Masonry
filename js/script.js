@@ -51,6 +51,7 @@ function showSlides(n) {
 // === Contact form submission + Netlify email function ===
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.forms['contact'];
+  const thankYouMessage = document.getElementById("thank-you-message");
 
   if (form) {
     form.addEventListener('submit', async function (e) {
@@ -73,8 +74,9 @@ document.addEventListener("DOMContentLoaded", function () {
         body: JSON.stringify(data)
       });
 
-      alert('Thanks! We’ll email you a confirmation shortly.');
-      form.reset();
+      // Hide form and show message
+      form.style.display = "none";
+      thankYouMessage.style.display = "block";
     });
   }
 });
